@@ -5,10 +5,10 @@ https://github.com/standard-things/esm
 You can use ECMA Script Modules (import / expert etc) instead of Common js mdoules in node.
 The to run under node you just need a index.js file to import the top (e.g. main.js) entry file.
 The index.js is only this:
-> // Set options as a parameter, environment variable, or rc file.
+```` // Set options as a parameter, environment variable, or rc file.
+require = require("esm")(module/*, options*/)
+module.exports = require("./main.js")````
 
-> require = require("esm")(module/*, options*/)
-> module.exports = require("./main.js")
 
 
 You can also use: 
