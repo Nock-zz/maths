@@ -11,7 +11,10 @@ The index.js is only this:
 
 
 You can also use: 
-> node -r esm to run any ES Module.
+> node -r esm 
+to run any ES Module.
+
 See also https://medium.com/web-on-the-edge/tomorrows-es-modules-today-c53d29ac448c
 and https://codewithhugo.com/use-es-modules-in-node-without-babel/webpack-using-esm/
+
 Easy to use.
